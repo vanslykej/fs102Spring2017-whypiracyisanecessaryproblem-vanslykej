@@ -1,4 +1,4 @@
-# From Buying To Crying
+# Why Piracy Is A Necessary Problem
 
 This repository contains the HTML source code and additional resources for a presentation that corresponds to an article that I, Jake Van Slyke wrote on my website which is linked below. The presentation's source code uses the
 [reveal.js](https://github.com/hakimel/reveal.js/) framework to control the display of each slide.  I have developed a
@@ -11,7 +11,7 @@ more about my research publications, then you can check out my website called
 https://vanslykej.github.io.
 
 Are you interested in previewing the presentation without having to download the code and resources from the GitHub
-site? Well, you can! Please view [From Buying To Crying](http://cdn.rawgit.com/vanslykej/fs102Spring2017-frombuyingtocrying-vanslykej/master/presentation1.html).
+site? Well, you can! Please view [Why Piracy Is A Necessary Problem](http://cdn.rawgit.com/vanslykej/fs102Spring2017-whypiracyisanecessaryproblem-vanslykej/master/presentation2.html).
 
 ## Installation Instructions
 
