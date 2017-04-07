@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Why Piracy Is A Necessary "Problem"
+    </title>
+
+    <meta name="description" content="Presentation for third article">
+    <meta name="author" content="Jake Van Slyke">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/tomorrow&#45;night&#45;bright.css">         -->
+    <!-- <link rel="stylesheet" href="lib/css/tomorrow&#45;night&#45;bright.css"> -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans' rel='stylesheet' type='text/css'> -->
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="images/letter.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Why Piracy Is A Necessary "Problem"</h1>
+              <h2>Consumers Are Left With No Choice</h2>
+
+              <p>Jake Van Slyke</p>
+              <br /><small><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">creative commons licensed ( BY-NC-SA )</a> <a title="Push" href="http://flickr.com/photos/danielfoster/14212426230">flickr photo</a> shared by <a href="http://flickr.com/people/danielfoster">danielfoster</a></small>
+        </section>
+
+        <section>
+          <h1>Personal Experiences</h2>
+          <p class="fragment">Memorizing card numbers</p>
+          <p class="fragment">Endless emails</p>
+        </section>
+
+        <section>
+          <h1>What are the advantages?</h1>
+          <p class="fragment">Ability to stay at home</p>
+          <p class="fragment">Arrives at your door within days</p>
+          <p class="fragment">Products that are not always available</p>
+          <p class="fragment">But...is it worth it?</p>
+        </section>
+
+        <section data-background-transition="none" data-background="images/3018893014_e21dc3c406_o.jpg" style="">
+        </section>
+
+        <section data-background-transition="none" data-background="images/3018893014_e21dc3c406_o.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>The Dangers</h1>
+          <p class="fragment">Overspending from laziness</p>
+          <p class="fragment">Broad range of results</p>
+          <p class="fragment">"Paying with numbers"</p>
+          <p class="fragment">Internet "deals"</p>
+          <p class="fragment">Temptation from adverstisements</p>
+          <br/><small><a title="V" href="http://flickr.com/photos/castorgirl/3018893014">flickr photo</a> shared by <a href="http://flickr.com/people/castorgirl">Elad R</a> under a <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons ( BY-NC-ND ) license</a> </small>
+        </section>
+
+        <section>
+          <h1>Don't become a victim!</h1>
+        </section>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+          mouseWheel: true,
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/none/none
+
+          // Parallax scrolling
+          // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+          // parallaxBackgroundSize: '2100px 900px',
+
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+        });
+
+window.addEventListener("mousedown", handleClick, false);
+window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+function handleClick(e) {
+  e.preventDefault();
+  if(e.button === 0) Reveal.next();
+  if(e.button === 2) Reveal.prev();
+}
+
+      </script>
+
+  </body>
+</html>
